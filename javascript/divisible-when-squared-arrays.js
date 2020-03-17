@@ -23,7 +23,7 @@ let divisibleBy3s = array => {
 
 let squaresDivisibleBy3 = array => divisibleBy3s(squares(array));1
 
-
+//A short test for the function
 console.log(
     squaresDivisibleBy3([-3, -2, -9, 3, 4, 5, 6, 7, 8, 9]), // [9, 81, 9, 36, 81]
 );
